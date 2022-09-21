@@ -1,124 +1,83 @@
-.container {
-
-    max-width: 1000px;
-
-
-
-    margin: auto;
-
-}
 
 * {
-
     box-sizing: border-box;
+}
 
+.container {
+    max-width: 1000px;
+    margin: auto;
 }
 
 .col-12 {
     float: left;
-
     width: 100%;
-
     padding: 1px;
 }
 
 .col-6 {
     float: left;
-
     width: 50%;
-
     padding: 1px;
 }
 
 
 .col-10 {
     float: left;
-
     width: 83.33%;
-
     padding: 1px;
-
-
 }
 
 .col-1 {
     float: left;
-
     width: 8.33%;
-
     padding: 1px;
-
-
 }
 
 .col-4 {
     float: left;
-
     width: 33.33%;
-
     padding: 3px;
-
-
 }
 
 .col-3 {
     float: left;
-
     width: 25%;
-
     padding: 1px;
-
-
 }
 
 .col-5 {
     float: left;
-
     width: 41.66%;
-
     padding: 1px;
-
-
 }
 
 .col-2 {
     float: left;
-
     width: 16.66%;
-
     padding: 1px;
-
-
 }
 
 
 
 .row::after {
-
     content: "";
-
     clear: both;
-
     display: table;
-
 }
 
 .task1 div p {
     color: red;
-
 }
 
 .task2 div>p {
     color: red;
-
-
 }
 
 .task3 div+p {
     color: red;
 }
 
-.centerdTaxt {
+.centeredText {
     text-align: center;
     height: 300px;
     width: 300px;
@@ -127,9 +86,6 @@
 body {
     background-color: bisque;
 }
-
-
-
 
 h1 {
     font-size: 3em;
